@@ -1,0 +1,732 @@
+body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+     color: white;
+}
+header{
+     background-color: #333333;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     box-sizing: border-box;
+     padding-left: 20px;
+     vertical-align: middle;
+     display: flex;
+     position: sticky;
+     top: 0;
+     width: 100%;
+}
+header>span{
+     cursor: pointer;
+     font-size: 45px;
+}
+header>span>span{
+     color: #77CC6D;
+}
+header>.Humanresources-tab{
+     cursor: pointer;
+     text-transform: uppercase;
+     color: #9B9B9B;
+     background-color: #222222;
+     border: none;
+     text-align: center;
+     margin-left: 2%;
+     text-align: center;
+     padding-top: 20px;
+     padding-left: 8px;
+     padding-right: 8px;
+     text-align: center;
+     vertical-align: middle;
+     margin-bottom: -3px;
+     margin-top: -5px;
+     width: 30%;
+}
+.Electronic-devices{
+     display: flex;
+     margin-left: 49%;
+}
+.Monitor-div{
+     border: 1px solid #9B9B9B;
+     padding-top: 17px;
+     margin-top: -6px;
+     margin-bottom: -6px;
+     padding-left: 10px;
+     padding-right: 10px;
+     cursor: pointer;
+}
+.Monitor-div:hover{
+     background-color: black;
+}
+.Monitor{
+     width: 30px;
+     height: 30px;
+}
+.Tablet-div{
+     border: 1px solid #9B9B9B;
+     padding-top: 17px;
+     margin-top: -6px;
+     margin-bottom: -6px;
+     padding-left: 10px;
+     padding-right: 10px;
+     cursor: pointer;
+}
+.Tablet-div:hover{
+     background-color: black;
+}
+.Tablet{
+     width: 30px;
+     height: 30px;
+}
+.Mobile-div{
+     border: 1px solid #9B9B9B;
+     padding-top: 17px;
+     margin-top: -6px;
+     margin-bottom: -6px;
+     padding-left: 10px;
+     padding-right: 10px;
+     cursor: pointer;
+}
+.Mobile-div:hover{
+     background-color: black;
+}
+.Mobile{
+     width: 30px;
+     height: 30px;
+}
+.Cart-div{
+     background-color: #7AC64D;
+     padding-left: 10px;
+     padding-right: 10px;
+     cursor: pointer;
+     margin-top: -10px;
+     margin-bottom: -5px;
+     padding-top: 20px;
+}
+.Cart-div:hover{
+     background-color: black;
+}
+.Cart{
+     width: 35px;
+     height: 30px;
+}
+.Cross-div{
+     border: 1px solid #9B9B9B;
+     padding-top: 17px;
+     margin-top: -6px;
+     margin-bottom: -6px;
+     padding-left: 10px;
+     padding-right: 10px;
+     cursor: pointer;
+}
+.Cross{
+     width: 30px;
+     height: 30px;
+}
+.Cross-div:hover{
+     background-color: black;
+}
+.Office-Div{
+     background-image: url(10th\ Assignment\ Web\ &\ App\ \(CSS\)\ Image\ 1.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.Navbar{
+     background-color: rgba(0, 0, 0, 0.434);
+     padding-top: 4%;
+     padding-left: 6%;
+     padding-right: 6%;
+     padding-bottom: 12%;
+}
+.Navbar>span{
+     font-size: 20px;
+     cursor: pointer;
+     vertical-align: top;
+}
+.Navbar>ul{
+     list-style: none;
+     display: flex;
+     justify-content: end;
+}
+.Navbar>ul>li{
+     padding-left: 30px;
+     vertical-align: top;
+     cursor: pointer;
+     margin-top: -3%;
+}
+.Navbar>ul>li>select>option{
+     color: black;
+}
+.Navbar>ul>li:hover{
+     color: #7AC64D;
+}
+.Navbar>ul>li>select{
+     background-color: transparent;
+     color: white;
+     border: none;
+}
+.Navbar>ul>li>select>option{
+     background-color: transparent;
+}
+.Navbar-main-para{
+     font-size: 47px;
+     margin-top: 13%;
+}
+.Span-2{
+     font-weight: 800;
+}
+.Navbar-para{
+     line-height: 1.8;
+     font-size: 18px;
+     font-weight: 300;
+}
+.Navbar>.Navbar-button-1{
+     background-color: #0389FF;
+     color: white;
+     border: none;
+     text-transform: uppercase;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-left: 3%;
+     border-top-left-radius: 15px;
+     border-bottom-right-radius: 15px;
+     padding-right: 3%;
+     cursor: pointer;
+}
+.Navbar>.Navbar-button-1:hover{
+     background-color: #7AC64D;
+}
+.Navbar>.Navbar-button-2{
+     background-color: #77CC6D;
+     color: white;
+     border: none;
+     border-top-left-radius: 15px;
+     border-bottom-right-radius: 15px;
+     text-transform: uppercase;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-left: 3%;
+     padding-right: 3%;
+     cursor: pointer;
+     margin-left: 2%;
+}
+.Navbar>.Navbar-button-2:hover{
+     background-color: #0389FF;
+}
+.Divs3{
+     display: flex;
+     margin-left: 5%;
+}
+.Div-1{
+     background-color: white;
+     color: black;
+     width: 25%;
+     margin-left: 5%;
+     padding: 30px;
+     margin-top: -10%;
+     box-shadow: 5px 0px 8px gray;
+}
+.Div-1>p{
+     color: grey;
+}
+.Div-2>p{
+     color: grey;
+}
+.Div-3>p{
+     color: grey;
+}
+.Div-2{
+     background-color: white;
+     color: black;
+     width: 25%;
+     margin-left: 5%;
+     padding: 30px;
+     margin-top: -10%;
+     box-shadow: 5px 0px 8px gray;
+}
+.Div-3{
+     background-color: white;
+     color: black;
+     width: 25%;
+     margin-left: 5%;
+     margin-right: 3%;
+     padding: 30px;
+     margin-top: -10%;
+     box-shadow: 0px 7px 8px gray;
+}
+.Div-1-Image{
+     width: 70px;
+     height: 70px;
+}
+.Div-2-Image{
+     width: 70px;
+     height: 70px;
+     margin-left: -7%;
+}
+.Div-3-Image{
+     width: 70px;
+     height: 70px;
+     margin-left: -7%;
+}
+.Divs-3-button{
+     background: none;
+     border: none;
+}
+.Divs-3-button:hover{
+     background-color: #77CC6D;
+     color: white;
+     padding: 10px;
+}
+.Bottom-Top-Div{
+     margin-top: 13%;
+     padding-left: 7%;
+     padding-right: 10%;
+}
+.Bottom-Top-Div-1-Image{
+     width: 635px;
+     height: 424px;
+}
+.Bottom-Top-Div-1-Div1{
+     font-size: 35px;
+     color: black;
+     margin-bottom: 4%;
+}
+.Bottom-Top-Div-2{
+     margin-top: -48%;
+     color: black;
+     text-align: left;
+     margin-left: 70%;
+}
+.Bottom-Top-Div-2>span{
+     color: black;
+     font-size: 35px;
+}
+.Signs{
+     padding-top: 20%;
+}
+.Signs-1{
+     border: 1px solid #0389FF;
+     text-align: center;
+     width: 10%;
+     color: #0389FF;
+     margin-bottom: 10%;
+     cursor: pointer;
+}
+.Signs-2{
+     border: 1px solid black;
+     text-align: center;
+     width: 10%;
+     margin-bottom: 10%;
+     margin-top: 80%;
+     cursor: pointer;
+}
+.Signs-3{
+     border: 1px solid black;
+     text-align: center;
+     width: 10%;
+     margin-bottom: 10%;
+     cursor: pointer;
+}
+.Signs-4{
+     border: 1px solid black;
+     text-align: center;
+     width: 10%;
+     margin-bottom: 10%;
+     cursor: pointer;
+}
+.Paragraphs{
+     margin-top: -135%;
+     margin-left: 15%;
+}
+.Paragraphs-1>.Para1{
+     color: #0389FF;
+     cursor: pointer;
+}
+.Para2{
+     color: gray;
+}
+.Para2>span{
+     color: black;
+}
+.Paragraphs-2{
+     cursor: pointer;
+}
+.Paragraphs-3{
+     margin-top: -7%;
+     cursor: pointer;
+}
+.Paragraphs-4{
+     margin-top: -7%;
+     cursor: pointer;
+}
+.NPY{
+     background-color: #F8F9FA;
+     color: black;
+     display: flex;
+     margin-top: 10%;
+     padding-left: 15%;
+     padding-right: 15%;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     padding-top: 5%;
+     padding-bottom: 5%;
+}
+.Personal-Numbers{
+     margin-left: 10%;
+}
+.Years{
+     margin-left: 10%;
+}
+.Number{
+     font-size: 50px;
+     color: #0389FF;
+     text-align: center;
+}
+.Para{
+     color: gray;
+     text-transform: uppercase;
+     text-align: center;
+}
+.Center-div{
+     color: black;
+     font-size: 30px;
+     text-align: center;
+     margin-top: 10%;
+}
+.Founder1{
+     background-image: url(10th\ Assignment\ Web\ &\ App\ \(CSS\)\ Image\ 11.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: contain;
+     display: flex;
+     height: 400px;
+     width: 350px;
+     margin-left: 6%;
+     align-items: center;
+     display: inline-block;
+}
+.BOB{
+     background-color: white;
+     height: 20%;
+     margin-top: 60%;
+     margin-left: 8%;
+     padding: 10px;
+     width: 80%;
+     cursor: pointer;
+}
+
+
+.BOB>p{
+     color: gray;
+     text-transform: uppercase;
+}
+.BOB>p>span{
+     font-weight: 600;
+     font-size: 20px;
+     color: black;
+}
+.Founder2{
+     background-image: url(10th\ Assignment\ Web\ &\ App\ \(CSS\)\ Image\ 12.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: contain;
+     display: flex;
+     height: 400px;
+     width: 350px;
+     margin-left: 3%;
+     align-items: center;
+     display: inline-block;
+}
+.Jean{
+     background-color: white;
+     height: 20%;
+     margin-top: 60%;
+     margin-left: 8%;
+     padding: 10px;
+     width: 80%;
+     cursor: pointer;
+}
+
+
+.Jean>p{
+     color: gray;
+     text-transform: uppercase;
+}
+.Jean>p>span{
+     font-weight: 600;
+     font-size: 20px;
+     color: black;
+}
+.Founder3{
+     background-image: url(10th\ Assignment\ Web\ &\ App\ \(CSS\)\ Image\ 13.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: contain;
+     display: flex;
+     height: 400px;
+     width: 350px;
+     margin-left: 3%;
+     align-items: center;
+     display: inline-block;
+     margin-right: 4%;
+}
+.David{
+     background-color: white;
+     height: 20%;
+     margin-top: 60%;
+     margin-left: 8%;
+     padding: 10px;
+     width: 80%;
+     cursor: pointer;
+}
+
+
+.David>p{
+     color: gray;
+     text-transform: uppercase;
+}
+.David>p>span{
+     font-weight: 600;
+     font-size: 20px;
+     color: black;
+}
+.Messages{
+     color: black;
+}
+.Message-1{
+     font-size: 30px;
+     text-align: center;
+}
+.Message-2{
+     font-size: 150px;
+     text-align: center;
+     font-family: sans-serif;
+     margin-top: 0;
+}
+.Message-3{
+     margin-top: -15%;
+     text-align: justify;
+     color: black;
+     font-size: 20px;
+     width: 42%;
+     margin-left: 30%;
+     margin-right: 30%;
+     line-height: 35px;
+}
+.CIte-1{
+     color: black;
+     margin-left: 35%;
+     font-size: 20px;
+}
+.Services{
+     background-color: #F8F9FA;
+     padding-top: 8%;
+     padding-bottom: 8%;
+     margin-top: 7%;
+     text-align: center;
+}
+.Services>p{
+     color: black;
+     font-size: 30px;
+     text-align: center;
+}
+.Our-Services{
+     height: 70px;
+     width: 70px;
+}
+.Services-child{
+     color: black;
+     width: 27%;
+     margin-left: 3%;
+     display: inline-block;
+     text-align: center;
+}
+.Services-child-Para-1-1{
+     font-size: 20px;
+     line-height: 30px;
+     color: black;
+}
+.Services-child-Para-2-1{
+     font-size: 20px;
+     line-height: 30px;
+     color: black;
+}
+.Services-child-Para-3-1{
+     font-size: 20px;
+     line-height: 30px;
+     color: black;
+}
+.Services-child-Para-4-1{
+     font-size: 20px;
+     line-height: 30px;
+     color: black;
+}
+.Services-child-Para-5-1{
+     font-size: 20px;
+     line-height: 30px;
+     color: black;
+}
+.Services-child-Para-6-1{
+     font-size: 20px;
+     line-height: 30px;
+     color: black;
+}
+.Services-child-Para-1-2{
+     font-size: 15px;
+     color: grey;
+     line-height: 30px;
+}
+.Services-child-Para-2-2{
+     font-size: 15px;
+     color: grey;
+     line-height: 30px;
+}
+.Services-child-Para-3-2{
+     font-size: 15px;
+     color: grey;
+     line-height: 30px;
+}
+.Services-child-Para-4-2{
+     font-size: 15px;
+     color: grey;
+     line-height: 30px;
+}
+.Services-child-Para-5-2{
+     font-size: 15px;
+     color: grey;
+     line-height: 30px;
+}
+.Services-child-Para-6-2{
+     font-size: 15px;
+     color: grey;
+     line-height: 30px;
+}
+.Service-Image-1{
+     padding-top: 1%;
+}
+.Services>button{
+     background-color: black;
+}
+.Service-button{
+     cursor: pointer;
+     margin-top: 4%;
+     background-color: black;
+     color: white;
+     border: none;
+     text-transform: uppercase;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-left: 30px;
+     padding-right: 30px;
+}
+.Bottom-center{
+     color: black;
+     text-align: center;
+     margin-top: 8%;
+}
+.Bottom-Para-1{
+     font-size: 30px;
+}
+.Bottom-Para-2{
+     color: gray;
+     margin-top: -2%;
+     line-height: 25px;
+}
+.Bottom-Div-3>img,.Bottom-Div-4>img{
+height: 400px;
+cursor: pointer;
+}
+.Bottom-Div-3>img{
+     margin-bottom: -1%;
+}
+footer{
+     margin-top: 10%;
+     background-color: #F8F9FA;
+     color: black;
+     padding-left: 8%;
+     padding-right: 8%;
+     padding-top: 10%;
+     padding-bottom: 10%;
+}
+.Footer-Div-1{
+     width: 28%;
+     display: inline-block;
+}
+.Footer-Div-1>span{
+     color: grey;
+}
+.Footer-Div-1>p{
+     color: gray;
+     line-height: 30px;
+}
+.Footer-Div-2{
+     display: inline-block;
+     text-align: left;
+     align-items: center;
+     justify-content: left;
+}
+.Footer-Div-2>ul>li{
+     list-style: none;
+     margin-left: -4%;
+     cursor: pointer;
+}
+.Footer-Div-2>span{
+     color: grey;
+     margin-left: 38px;
+}
+.Footer-Div-3{
+     display: inline-block;
+}
+.Footer-Div-3>ul>li{
+     list-style: none;
+     margin-left: -4%;
+     cursor: pointer;
+}
+.Footer-Div-3>span{
+     color: grey;
+     margin-left: 38px;
+}
+.Footer-Div-4{
+     display: inline-block;
+}
+.Footer-Div-4>ul>li{
+     list-style: none;
+     margin-left: -4%;
+     cursor: pointer;
+}
+.Footer-Div-4>span{
+     color: grey;
+     margin-left: 38px;
+}
+.Footer-Div-5{
+     display: inline-block;
+     margin-left: 3%;
+}
+.Footer-Div-5>span{
+     color: grey;
+}
+.Footer-Div-5-Images{
+     height: 40px;
+     width: 40px;
+}
+.Footer-image-2{
+     height: 35px;
+     width: 35px;
+}
+.Footer-image-3{
+     height: 35px;
+     width: 35px;
+}
+footer>p{
+     margin-top: 7%;
+     text-align: center;
+}
+footer>p>a{
+     color: #0389FF;
+     text-decoration: none;
+}
+footer>p>svg{
+     color: ;
+}
